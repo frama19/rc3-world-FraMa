@@ -37,7 +37,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":""
+                 "value":"{<lobby>\/erfas-south.json#start_frama}"
                 }],
          "type":"tilelayer",
          "visible":true,

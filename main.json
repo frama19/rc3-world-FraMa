@@ -109,7 +109,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"FraMaAssembly"
+                 "value":"shared FraMaAssembly"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -210,6 +210,15 @@
                         }]
                 }, 
                 {
+                 "id":78,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":89,
                  "properties":[
                         {
@@ -494,6 +503,24 @@
                 }, 
                 {
                  "id":563,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":564,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":567,
                  "properties":[
                         {
                          "name":"collides",
@@ -817,6 +844,15 @@
                         }]
                 }, 
                 {
+                 "id":710,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":715,
                  "properties":[
                         {
@@ -854,6 +890,15 @@
                 }, 
                 {
                  "id":719,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":730,
                  "properties":[
                         {
                          "name":"collides",

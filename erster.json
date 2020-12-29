@@ -782,12 +782,6 @@
                 }, 
                 {
                  "id":677,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
                  "terrain":[0, -1, 0, 0]
                 }, 
                 {

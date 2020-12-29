@@ -37,7 +37,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{erster.json#outside}"
+                 "value":"erster.json#outside"
                 }],
          "type":"tilelayer",
          "visible":true,

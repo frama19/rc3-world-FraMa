@@ -53,9 +53,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"getBadge",
+                 "name":"openUrl",
                  "type":"string",
-                 "value":"DztjXKgjLZiqpEjA5ZX8acLHaTGzYvmXKgpEBjPOohnOYOgoKU"
+                 "value":"https:\/\/www.dataharbour.de\/machine.html"
                 }],
          "type":"tilelayer",
          "visible":true,

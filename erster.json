@@ -109,7 +109,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lounge>\/wa-toilet-party\/maps\/restroom-party.json#toilet-frama}"
+                 "value":"..\/..\/..\/basxto\/klominalbetrieb\/main\/main.json#start_frama"
                 }],
          "type":"tilelayer",
          "visible":true,

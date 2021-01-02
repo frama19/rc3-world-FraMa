@@ -1693,6 +1693,62 @@
                 {
                  "animation":[
                         {
+                         "duration":400,
+                         "tileid":417
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":455
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":375
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":415
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":375
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":377
+                        }],
+                 "id":417
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":400,
+                         "tileid":418
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":456
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":376
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":416
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":376
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":378
+                        }],
+                 "id":418
+                }, 
+                {
+                 "animation":[
+                        {
                          "duration":300,
                          "tileid":419
                         }, 
@@ -1717,6 +1773,62 @@
                          "tileid":479
                         }],
                  "id":419
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":400,
+                         "tileid":437
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":475
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":395
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":435
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":395
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":397
+                        }],
+                 "id":437
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":400,
+                         "tileid":438
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":476
+                        }, 
+                        {
+                         "duration":600,
+                         "tileid":396
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":436
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":396
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":398
+                        }],
+                 "id":438
                 }, 
                 {
                  "animation":[
@@ -1838,7 +1950,7 @@
                         }, 
                         {
                          "duration":1200,
-                         "tileid":457
+                         "tileid":515
                         }, 
                         {
                          "duration":600,
@@ -1850,11 +1962,11 @@
                         }, 
                         {
                          "duration":600,
-                         "tileid":457
+                         "tileid":515
                         }, 
                         {
                          "duration":1200,
-                         "tileid":457
+                         "tileid":515
                         }],
                  "id":477
                 }, 
@@ -1866,11 +1978,11 @@
                         }, 
                         {
                          "duration":1200,
-                         "tileid":458
+                         "tileid":515
                         }, 
                         {
                          "duration":600,
-                         "tileid":458
+                         "tileid":515
                         }, 
                         {
                          "duration":100,
@@ -1882,7 +1994,7 @@
                         }, 
                         {
                          "duration":1200,
-                         "tileid":458
+                         "tileid":515
                         }],
                  "id":478
                 }, 

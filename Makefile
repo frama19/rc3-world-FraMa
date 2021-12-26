@@ -14,8 +14,8 @@ all: main.json pics/scifi_space_rpg_tiles_lpcized_mate_frama.png LICENSE.md
 	$(OPNG) -o7 -zm1-9 "$@"
 
 LICENSE.md: *.tmx tilesets/*.tsx
-	echo "*This file is generated*" > $@
-	echo  >> $@
+	-echo "*This file got generated*" > $@
+	-echo  >> $@
 	find . -maxdepth 1 -name "*.tmx" -exec xml sel -T -t -m '//property[@name="mapCopyright"]' -v . -n -n {} \; >> $@
 	find tilesets -name "*.tsx" -exec xml sel -T -t -m '//property[@name="tilesetCopyright"]' -v . -n -n {} \; >> $@
 	cat LICENSE.links.md >> $@

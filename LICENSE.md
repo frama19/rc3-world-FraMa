@@ -1,14 +1,17 @@
-*This file is generated*
+*This file got generated*
 
 [main.tmx]:
 -----------
 
 [cc0] by [Baŝto]
 
+
 [mapUtilities.png]:
 -------------------
 
-[cc0] author unknown
+[cc0] by [psy], extended by [Baŝto]
+- https://git.cccv.de/rc3/world-tiles/-/blob/master/rc3-2020/structures/mapUtilities.png
+
 
 [scifi_space_rpg_tiles_lpcized_mate_frama.kra]:
 -----------------------------------------------
@@ -29,6 +32,7 @@
 
 
 
+
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/
 [cc-by-sa 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -40,10 +44,11 @@
 [bluecarrot16]: https://opengameart.org/users/bluecarrot16
 [Lanea Zimmerman (Sharm)]: https://opengameart.org/users/sharm
 [Wonko]: https://wonko.de/
+[psy]: https://git.cccv.de/psy
 
 [main.tmx]: main.tmx
 [mapUtilities.png]: pics/mapUtilities.png
-[scifi_space_rpg_tiles_lpcized_mate_frama.kra]: pics/scifi_space_rpg_tiles_lpcized_mate_frama.kra
+[scifi_space_rpg_tiles_lpcized_mate_frama.kra]: pics/scifi_space_rpg_tiles_lpcized_mate_frama.png
 [scifi_space_rpg_tiles_lpcized.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/scifi_space_rpg_tiles_lpcized.png
 [hakuna_matetee.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee.png
 [hakuna_matetee2.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee2.png

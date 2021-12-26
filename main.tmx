@@ -4,7 +4,8 @@
   <property name="mapCopyright">[main.tmx]:
 -----------
 
-[cc0] by [Baŝto]</property>
+[cc0] by [Baŝto]
+</property>
   <property name="mapDescription" value="Main map of FraMa (Frankfurt/Mannheim)"/>
   <property name="mapLink" value="https://github.com/frama19/rc3-world-FraMa"/>
   <property name="mapName" value="frama_rc3NWHR"/>

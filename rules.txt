@@ -5,4 +5,5 @@
 rules/completer.tmx
 rules/wallfixer.tmx
 rules/floormarkingfixer.tmx
-rules/autocollision.tmx
+rules/autocollision_floor.tmx
+rules/autocollision_objects.tmx

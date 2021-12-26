@@ -30,6 +30,9 @@
 - https://opengameart.org/content/lpc-frama-sci-fi-extensions
 - file: [scifi_hackspace_frama.png]
 
+unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hyptosis]
+- file: [scifi_space_rpg_tiles_lpcized_wall.png]
+
 
 
 
@@ -53,3 +56,4 @@
 [hakuna_matetee.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee.png
 [hakuna_matetee2.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee2.png
 [scifi_hackspace_frama.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/scifi_hackspace_frama.png
+[scifi_space_rpg_tiles_lpcized_wall.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/scifi_space_rpg_tiles_lpcized_wall.png

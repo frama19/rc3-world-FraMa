@@ -20,3 +20,4 @@
 [hakuna_matetee.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee.png
 [hakuna_matetee2.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/hakuna_matetee2.png
 [scifi_hackspace_frama.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/scifi_hackspace_frama.png
+[scifi_space_rpg_tiles_lpcized_wall.png]: pics/scifi_space_rpg_tiles_lpcized_mate_frama/scifi_space_rpg_tiles_lpcized_wall.png

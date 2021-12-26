@@ -5,7 +5,7 @@ OPNG=optipng
 all: main.json pics/scifi_space_rpg_tiles_lpcized_mate_frama.png
 
 %.json: %.tmx tilesets/*.tsx
-	$(TILED) --export-map --minimize --embed-tilesets "$<" "$@"
+	$(TILED) --export-map --embed-tilesets "$<" "$@"
 
 %.png: %.kra %/*.png
 	$(KRITA) --export --export-filename "$@" "$<"

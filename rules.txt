@@ -1,5 +1,8 @@
 # this will note be available through rc3, it's just for mapping
 # for more infos see https://doc.mapeditor.org/en/stable/manual/automapping/
-derandomizer.tmx
-completer.tmx
-randomizer.tmx
+#rules/derandomizer.tmx
+#rules/completer.tmx
+#rules/randomizer.tmx
+rules/wallfixer.tmx
+rules/floormarkingfixer.tmx
+rules/autocollision.tmx

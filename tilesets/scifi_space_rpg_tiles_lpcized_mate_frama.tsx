@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.5" tiledversion="1.7.2" name="scifi_space_rpg_tiles_lpcized_mate_frama" tilewidth="32" tileheight="32" tilecount="306" columns="18">
  <properties>
-  <property name="tilesetCopyright">scifi_space_rpg_tiles_lpcized_mate_frama.kra: cc-by-sa 4.0, merger of tilesets:
+  <property name="tilesetCopyright">[scifi_space_rpg_tiles_lpcized_mate_frama.kra]:
+-----------------------------------------------
 
-“LPC goes to space” licensed under cc-by-sa 4.0 by Baŝto, Hyptosis, FunwithPixels and Skorpio
+[cc-by-sa 4.0], merger of tilesets:
+
+“LPC goes to space” licensed under [cc-by-sa 4.0] by [Baŝto], [Hyptosis], [FunwithPixels] and [Skorpio]
 - https://opengameart.org/content/lpc-goes-to-space
-- file: scifi_space_rpg_tiles_lpcized.png
+- file: [scifi_space_rpg_tiles_lpcized.png]
 
-“[LPC] Hakuna Matetee” licensed under cc-by-sa 4.0 by Baŝto, Hyptosis, Skorpio, Pennomi, bluecarrot16 and Lanea Zimmerman (Sharm)
+“[LPC] Hakuna Matetee” licensed under [cc-by-sa 4.0] by [Baŝto], [Hyptosis], [Skorpio], [Pennomi], [bluecarrot16] and [Lanea Zimmerman (Sharm)]
 - https://opengameart.org/content/lpc-hakuna-matetee
-- files: hakuna_matetee.png and hakuna_matetee2.png
+- files: [hakuna_matetee.png] and [hakuna_matetee2.png]
 
-“[LPC] FraMa sci-fi extensions”licensed under cc-by-sa 4.0 by Baŝto, Wonko, Hyptosis, FunwithPixels and Skorpio
+“[LPC] FraMa sci-fi extensions” licensed under [cc-by-sa 4.0] by [Baŝto], [Wonko], [Hyptosis], [FunwithPixels] and [Skorpio]
 - https://opengameart.org/content/lpc-frama-sci-fi-extensions
-- file: scifi_hackspace_frama.png</property>
+- file: [scifi_hackspace_frama.png]</property>
  </properties>
  <image source="../pics/scifi_space_rpg_tiles_lpcized_mate_frama.png" width="576" height="544"/>
  <tile id="24" probability="0"/>

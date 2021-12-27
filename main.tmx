@@ -1230,7 +1230,7 @@ blinken_overlay</property>
    <properties>
     <property name="openWebsiteTrigger" value="onaction"/>
     <property name="openWebsiteTriggerMessage" value="press SPACE to show the LED wall in the map"/>
-    <property name="url" value="https://sled.fridtjof.dev/"/>
+    <property name="url" value="https://sled.fridtjof.dev/#inline"/>
    </properties>
   </object>
  </objectgroup>

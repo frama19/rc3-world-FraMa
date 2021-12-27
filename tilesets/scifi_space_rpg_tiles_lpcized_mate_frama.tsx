@@ -62,17 +62,81 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
  </tile>
  <tile id="176" probability="0"/>
  <tile id="193" probability="0"/>
+ <tile id="208">
+  <animation>
+   <frame tileid="154" duration="600"/>
+   <frame tileid="208" duration="600"/>
+  </animation>
+ </tile>
  <tile id="211" probability="0"/>
  <tile id="212" probability="0"/>
  <tile id="213" probability="0"/>
  <tile id="214" probability="0"/>
  <tile id="215" probability="0"/>
- <tile id="218" probability="0"/>
- <tile id="219" probability="0"/>
+ <tile id="218" probability="0">
+  <animation>
+   <frame tileid="236" duration="600"/>
+   <frame tileid="218" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="219" probability="0">
+  <animation>
+   <frame tileid="237" duration="600"/>
+   <frame tileid="219" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="226">
+  <animation>
+   <frame tileid="172" duration="600"/>
+   <frame tileid="226" duration="600"/>
+  </animation>
+ </tile>
  <tile id="236" probability="0"/>
  <tile id="237" probability="0"/>
+ <tile id="244">
+  <animation>
+   <frame tileid="190" duration="600"/>
+   <frame tileid="244" duration="600"/>
+  </animation>
+ </tile>
+ <tile id="247">
+  <animation>
+   <frame tileid="246" duration="600"/>
+   <frame tileid="247" duration="100"/>
+  </animation>
+ </tile>
  <tile id="254" probability="0"/>
  <tile id="255" probability="0"/>
+ <tile id="265">
+  <animation>
+   <frame tileid="264" duration="600"/>
+   <frame tileid="265" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="266">
+  <animation>
+   <frame tileid="268" duration="600"/>
+   <frame tileid="266" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="267">
+  <animation>
+   <frame tileid="269" duration="600"/>
+   <frame tileid="267" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="270">
+  <animation>
+   <frame tileid="252" duration="600"/>
+   <frame tileid="270" duration="100"/>
+  </animation>
+ </tile>
+ <tile id="271">
+  <animation>
+   <frame tileid="253" duration="600"/>
+   <frame tileid="271" duration="100"/>
+  </animation>
+ </tile>
  <tile id="284" probability="0"/>
  <tile id="287" probability="0"/>
  <tile id="296" probability="0"/>

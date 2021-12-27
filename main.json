@@ -373,6 +373,23 @@
                  "width":0,
                  "x":881.667,
                  "y":407.333
+                }, 
+                {
+                 "height":34,
+                 "id":8,
+                 "name":"led_matrix",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"https:\/\/sled.fridtjof.dev\/"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":56,
+                 "x":1179.33,
+                 "y":194
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -434,7 +451,7 @@
          "name":"badges",
          "objects":[
                 {
-                 "height":54.6667,
+                 "height":68.8485,
                  "id":7,
                  "name":"mask",
                  "properties":[
@@ -446,8 +463,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":42,
-                 "x":1482.67,
+                 "width":43.8182,
+                 "x":1481.94,
                  "y":308.667
                 }],
          "opacity":1,
@@ -457,7 +474,7 @@
          "y":0
         }],
  "nextlayerid":56,
- "nextobjectid":8,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="56" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="56" nextobjectid="9">
  <editorsettings>
   <export target="main_wat.json" format="json"/>
  </editorsettings>
@@ -1226,6 +1226,11 @@ blinken_overlay</property>
    </properties>
    <point/>
   </object>
+  <object id="8" name="led_matrix" type="website" x="1179.33" y="194" width="56" height="34">
+   <properties>
+    <property name="url" value="https://sled.fridtjof.dev/"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="47" name="backdoor_closed_overlay" width="64" height="64" visible="0">
   <data encoding="csv">
@@ -1500,7 +1505,7 @@ blinken_overlay</property>
 </data>
  </layer>
  <objectgroup id="55" name="badges">
-  <object id="7" name="mask" x="1482.67" y="308.667" width="42" height="54.6667">
+  <object id="7" name="mask" x="1481.94" y="308.667" width="43.8182" height="68.8485">
    <properties>
     <property name="getBadge" value="gwBGRXrg0UEtos3tMQjWdSNQuqkvB1rBW4ZJw3wOqE0dMKt200"/>
    </properties>

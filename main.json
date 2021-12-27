@@ -375,10 +375,20 @@
                  "y":407.333
                 }, 
                 {
-                 "height":34,
+                 "height":36,
                  "id":8,
                  "name":"led_matrix",
                  "properties":[
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"press SPACE to show the LED wall in the map"
+                        }, 
                         {
                          "name":"url",
                          "type":"string",
@@ -388,8 +398,8 @@
                  "type":"website",
                  "visible":true,
                  "width":56,
-                 "x":1179.33,
-                 "y":194
+                 "x":1124,
+                 "y":316
                 }],
          "opacity":1,
          "type":"objectgroup",

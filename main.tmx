@@ -1226,8 +1226,10 @@ blinken_overlay</property>
    </properties>
    <point/>
   </object>
-  <object id="8" name="led_matrix" type="website" x="1179.33" y="194" width="56" height="34">
+  <object id="8" name="led_matrix" type="website" x="1124" y="316" width="56" height="36">
    <properties>
+    <property name="openWebsiteTrigger" value="onaction"/>
+    <property name="openWebsiteTriggerMessage" value="press SPACE to show the LED wall in the map"/>
     <property name="url" value="https://sled.fridtjof.dev/"/>
    </properties>
   </object>

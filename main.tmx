@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="56" nextobjectid="9">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="58" nextobjectid="11">
  <editorsettings>
   <export target="main_wat.json" format="json"/>
  </editorsettings>
@@ -171,8 +171,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1204,6 +1204,18 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="57" name="projectionLayer">
+  <object id="9" name="led_matrix" type="website" x="1124" y="316" width="56" height="36">
+   <properties>
+    <property name="url" value="https://sled.fridtjof.dev/videowand/#inline"/>
+   </properties>
+  </object>
+  <object id="10" x="1112.51" y="244.167" width="228.984" height="36.3333">
+   <text fontfamily="Inconsolata" pixelsize="11" wrap="1" color="#f6f5f4">Go in front of SLED, &quot;look&quot; at it.
+Permanently allow the domain and reload
+to see the on-map animation of SLED.</text>
+  </object>
+ </objectgroup>
  <objectgroup id="2" name="floorLayer">
   <object id="4" name="backdoor" type="variable" x="959" y="956">
    <properties>
@@ -1225,13 +1237,6 @@ backdoor_open_overlay</property>
 blinken_overlay</property>
    </properties>
    <point/>
-  </object>
-  <object id="8" name="led_matrix" type="website" x="1124" y="316" width="56" height="36">
-   <properties>
-    <property name="openWebsiteTrigger" value="onaction"/>
-    <property name="openWebsiteTriggerMessage" value="press SPACE to show the LED wall in the map"/>
-    <property name="url" value="https://sled.fridtjof.dev/videowand/#inline"/>
-   </properties>
   </object>
  </objectgroup>
  <layer id="47" name="backdoor_closed_overlay" width="64" height="64" visible="0">
@@ -1507,7 +1512,7 @@ blinken_overlay</property>
 </data>
  </layer>
  <objectgroup id="55" name="badges">
-  <object id="7" name="mask" x="1481.94" y="308.667" width="43.8182" height="68.8485">
+  <object id="7" name="mask" x="1482" y="289" width="44" height="95">
    <properties>
     <property name="getBadge" value="gwBGRXrg0UEtos3tMQjWdSNQuqkvB1rBW4ZJw3wOqE0dMKt200"/>
    </properties>

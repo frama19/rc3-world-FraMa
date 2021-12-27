@@ -1,0 +1,25 @@
+{
+  "AssemblyTag":"frama",
+  "Assemblies":[],
+  "ScriptInject":null,
+  "AllowScripts":false,
+  "MaxLintLevel":"Info",
+  "DontCopyAssets":false,
+  "UriSchemas": [
+    ["https", {
+      "scope" : ["website"],
+      "allowed" : ["media.ccc.de", "streaming.media.ccc.de", "static.rc3.world", "cdn.c3voc.de"],
+      "blocked" : ["blocked.com"],
+      "prefix" : "https:\/\/rc3.world\/2021\/dereferrer\/"
+    }],
+    ["https", {
+      "scope" : ["audio"],
+      "allowed" : ["cdn.c3voc.de", "media.ccc.de", "streaming.media.ccc.de", "static.rc3.world"]
+    }],
+    ["world", {
+      "scope" : ["map"],
+      "substs" : {
+      }
+    }]
+  ]
+}

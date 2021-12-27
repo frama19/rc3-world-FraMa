@@ -3,8 +3,14 @@ KRITA=krita
 OPNG=optipng
 #XMLStarlet
 XML=xml
+# https://git.cccv.de/hub/walint/
+# precompiled binaries at https://git.cccv.de/hub/walint/-/jobs
+LINT=walint
+TMX=$(patsubst %.tmx,%.json,$(wildcard *.tmx))
+KRA=$(patsubst %.kra,%.png,$(wildcard pics/*.kra))
 
-all: main.json pics/scifi_space_rpg_tiles_lpcized_mate_frama.png LICENSE.md
+.PHONY: all lint
+all: $(TMX) $(KRA) LICENSE.md
 
 %.json: %.tmx tilesets/*.tsx
 	$(TILED) --export-map --embed-tilesets "$<" "$@"
@@ -19,3 +25,6 @@ LICENSE.md: *.tmx tilesets/*.tsx
 	find . -maxdepth 1 -name "*.tmx" -exec xml sel -T -t -m '//property[@name="mapCopyright"]' -v . -n -n {} \; >> $@
 	find tilesets -name "*.tsx" -exec xml sel -T -t -m '//property[@name="tilesetCopyright"]' -v . -n -n {} \; >> $@
 	cat LICENSE.links.md >> $@
+
+lint:
+	$(LINT) --config-file=lintconfig.json

@@ -18,6 +18,11 @@ All generated `.png`s and the `.json` map files can be generated with:
 make all
 ```
 
+Lint the map like
+```
+make lint LINT=/tmp/binwalint/dist/walint
+```
+
 
 What else?
 ----------

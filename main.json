@@ -106,7 +106,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/shinyblink.github.io\/sled\/"
+                 "value":"https:\/\/sled.fridtjof.dev\/"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -392,7 +392,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/shinyblink.github.io\/sled\/#inline"
+                         "value":"https:\/\/sled.fridtjof.dev\/videowand\/#inline"
                         }],
                  "rotation":0,
                  "type":"website",

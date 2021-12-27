@@ -372,7 +372,7 @@
  </layer>
  <layer id="54" name="UrlSledWASM" width="64" height="64">
   <properties>
-   <property name="openWebsite" value="https://shinyblink.github.io/sled/"/>
+   <property name="openWebsite" value="https://sled.fridtjof.dev/"/>
    <property name="openWebsiteTrigger" value="onaction"/>
    <property name="openWebsiteTriggerMessage" value="press SPACE to look at the LED matrix"/>
   </properties>
@@ -1230,7 +1230,7 @@ blinken_overlay</property>
    <properties>
     <property name="openWebsiteTrigger" value="onaction"/>
     <property name="openWebsiteTriggerMessage" value="press SPACE to show the LED wall in the map"/>
-    <property name="url" value="https://shinyblink.github.io/sled/#inline"/>
+    <property name="url" value="https://sled.fridtjof.dev/videowand/#inline"/>
    </properties>
   </object>
  </objectgroup>

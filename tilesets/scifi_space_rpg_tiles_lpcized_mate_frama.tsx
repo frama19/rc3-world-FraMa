@@ -38,8 +38,28 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
  <tile id="47" probability="0"/>
  <tile id="56" probability="0"/>
  <tile id="59" probability="0"/>
+ <tile id="62">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="63">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="74" probability="0"/>
  <tile id="77" probability="0"/>
+ <tile id="80">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="81">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="176" probability="0"/>
  <tile id="193" probability="0"/>
  <tile id="211" probability="0"/>
@@ -53,8 +73,12 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
  <tile id="237" probability="0"/>
  <tile id="254" probability="0"/>
  <tile id="255" probability="0"/>
+ <tile id="284" probability="0"/>
+ <tile id="287" probability="0"/>
  <tile id="296" probability="0"/>
  <tile id="297" probability="0"/>
+ <tile id="302" probability="0"/>
+ <tile id="305" probability="0"/>
  <wangsets>
   <wangset name="floorwall" type="mixed" tile="-1">
    <wangcolor name="wall" color="#ff0000" tile="-1" probability="1"/>
@@ -92,11 +116,13 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
    <wangtile tileid="54" wangid="2,2,2,1,2,2,2,2"/>
    <wangtile tileid="55" wangid="2,2,2,2,2,1,2,2"/>
    <wangtile tileid="56" wangid="1,1,1,1,2,2,2,1"/>
+   <wangtile tileid="59" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="64" wangid="3,3,3,1,3,3,3,3"/>
    <wangtile tileid="65" wangid="3,3,3,3,3,1,3,3"/>
    <wangtile tileid="72" wangid="2,1,2,2,2,2,2,2"/>
    <wangtile tileid="73" wangid="2,2,2,2,2,2,2,1"/>
    <wangtile tileid="74" wangid="1,1,1,1,2,2,2,1"/>
+   <wangtile tileid="77" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="82" wangid="3,1,3,3,3,3,3,3"/>
    <wangtile tileid="83" wangid="3,3,3,3,3,3,3,1"/>
    <wangtile tileid="144" wangid="1,1,2,1,2,1,1,1"/>
@@ -128,17 +154,32 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
    <wangtile tileid="215" wangid="2,2,2,2,2,2,2,2"/>
    <wangtile tileid="218" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="219" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="227" wangid="3,3,3,1,3,1,1,1"/>
+   <wangtile tileid="228" wangid="3,1,3,1,1,1,3,3"/>
+   <wangtile tileid="229" wangid="3,3,3,1,1,1,3,1"/>
+   <wangtile tileid="230" wangid="1,1,3,1,1,1,3,1"/>
+   <wangtile tileid="231" wangid="1,1,3,1,3,3,3,1"/>
+   <wangtile tileid="232" wangid="1,1,3,3,3,1,3,1"/>
    <wangtile tileid="236" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="237" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="245" wangid="3,1,3,3,3,1,1,1"/>
+   <wangtile tileid="250" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="254" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="255" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="262" wangid="1,1,3,3,3,3,3,1"/>
+   <wangtile tileid="263" wangid="0,1,1,1,0,1,1,1"/>
+   <wangtile tileid="281" wangid="3,1,1,1,3,1,3,3"/>
+   <wangtile tileid="284" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="287" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="288" wangid="1,1,2,1,1,1,1,1"/>
    <wangtile tileid="289" wangid="1,1,1,1,1,1,2,1"/>
    <wangtile tileid="290" wangid="1,1,1,1,2,1,1,1"/>
    <wangtile tileid="291" wangid="2,1,1,1,1,1,1,1"/>
    <wangtile tileid="296" wangid="1,1,1,1,1,1,2,1"/>
    <wangtile tileid="297" wangid="1,1,1,1,2,1,1,1"/>
+   <wangtile tileid="299" wangid="3,1,1,1,3,3,3,1"/>
+   <wangtile tileid="302" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="305" wangid="1,1,1,1,1,1,1,1"/>
   </wangset>
   <wangset name="innerfloor" type="mixed" tile="-1">
    <wangcolor name="tiled" color="#ff0000" tile="-1" probability="1"/>

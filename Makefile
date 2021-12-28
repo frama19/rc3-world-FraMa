@@ -19,12 +19,12 @@ all: $(TMX) $(KRA) LICENSE.md
 	$(KRITA) --export --export-filename "$@" "$<"
 	$(OPNG) -o7 -zm1-9 "$@"
 
-LICENSE.md: *.tmx tilesets/*.tsx
+LICENSE.md: LICENSE.links.md *.tmx tilesets/*.tsx
 	-echo "*This file got generated*" > $@
 	-echo  >> $@
 	find . -maxdepth 1 -name "*.tmx" -exec xml sel -T -t -m '//property[@name="mapCopyright"]' -v . -n -n {} \; >> $@
 	find tilesets -name "*.tsx" -exec xml sel -T -t -m '//property[@name="tilesetCopyright"]' -v . -n -n {} \; >> $@
-	cat LICENSE.links.md >> $@
+	cat $< >> $@
 
 lint:
 	$(LINT) --config-file=lintconfig.json

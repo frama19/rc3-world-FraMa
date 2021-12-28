@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":64,
  "infinite":false,
  "layers":[
@@ -89,9 +82,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"todo",
                  "type":"string",
-                 "value":"outside.json"
+                 "value":"going outside"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -107,9 +100,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"todo",
                  "type":"string",
-                 "value":"{<lounge>\/wa-toilet-party\/maps\/restroom-party.json#toilet-frama}"
+                 "value":"add exit for toilet network"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -209,8 +202,29 @@
  "nextlayerid":15,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"[first.tmx]:\n-----------\n\n[cc0] by [Ba\u015dto]\n"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"First floor of FraMa (Frankfurt\/Mannheim)"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/github.com\/frama19\/rc3-world-FraMa"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"frama_first_floor"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -222,23 +236,6 @@
          "margin":0,
          "name":"FraMa_tiles",
          "spacing":0,
-         "terrains":[
-                {
-                 "name":"teppich",
-                 "tile":756
-                }, 
-                {
-                 "name":"wood",
-                 "tile":655
-                }, 
-                {
-                 "name":"tiles",
-                 "tile":657
-                }, 
-                {
-                 "name":"wood2",
-                 "tile":534
-                }],
          "tilecount":800,
          "tileheight":32,
          "tiles":[
@@ -562,10 +559,6 @@
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":534,
-                 "terrain":[3, 3, 3, 3]
                 }, 
                 {
                  "id":537,
@@ -973,18 +966,6 @@
                         }]
                 }, 
                 {
-                 "id":655,
-                 "terrain":[1, 1, 1, 1]
-                }, 
-                {
-                 "id":656,
-                 "terrain":[-1, 0, 0, 0]
-                }, 
-                {
-                 "id":657,
-                 "terrain":[2, 2, 2, 2]
-                }, 
-                {
                  "id":658,
                  "properties":[
                         {
@@ -1010,10 +991,6 @@
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":677,
-                 "terrain":[0, -1, 0, 0]
                 }, 
                 {
                  "id":678,
@@ -1124,18 +1101,6 @@
                         }]
                 }, 
                 {
-                 "id":735,
-                 "terrain":[-1, -1, -1, 0]
-                }, 
-                {
-                 "id":736,
-                 "terrain":[-1, -1, 0, 0]
-                }, 
-                {
-                 "id":737,
-                 "terrain":[-1, -1, 0, -1]
-                }, 
-                {
                  "id":739,
                  "properties":[
                         {
@@ -1172,18 +1137,6 @@
                         }]
                 }, 
                 {
-                 "id":755,
-                 "terrain":[-1, 0, -1, 0]
-                }, 
-                {
-                 "id":756,
-                 "terrain":[0, 0, 0, 0]
-                }, 
-                {
-                 "id":757,
-                 "terrain":[0, -1, 0, -1]
-                }, 
-                {
                  "id":758,
                  "properties":[
                         {
@@ -1200,24 +1153,100 @@
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":775,
-                 "terrain":[-1, 0, -1, -1]
-                }, 
-                {
-                 "id":776,
-                 "terrain":[0, 0, -1, -1]
-                }, 
-                {
-                 "id":777,
-                 "terrain":[0, -1, -1, -1]
                 }],
          "tilewidth":32,
-         "transparentcolor":"#fa00ff"
+         "transparentcolor":"#fa00ff",
+         "wangsets":[
+                {
+                 "colors":[
+                        {
+                         "color":"#ff0000",
+                         "name":"teppich",
+                         "probability":1,
+                         "tile":756
+                        }, 
+                        {
+                         "color":"#00ff00",
+                         "name":"wood",
+                         "probability":1,
+                         "tile":655
+                        }, 
+                        {
+                         "color":"#0000ff",
+                         "name":"tiles",
+                         "probability":1,
+                         "tile":657
+                        }, 
+                        {
+                         "color":"#ff7700",
+                         "name":"wood2",
+                         "probability":1,
+                         "tile":534
+                        }],
+                 "name":"Terrains",
+                 "tile":-1,
+                 "type":"corner",
+                 "wangtiles":[
+                        {
+                         "tileid":534,
+                         "wangid":[0, 4, 0, 4, 0, 4, 0, 4]
+                        }, 
+                        {
+                         "tileid":655,
+                         "wangid":[0, 2, 0, 2, 0, 2, 0, 2]
+                        }, 
+                        {
+                         "tileid":656,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":657,
+                         "wangid":[0, 3, 0, 3, 0, 3, 0, 3]
+                        }, 
+                        {
+                         "tileid":677,
+                         "wangid":[0, 0, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":735,
+                         "wangid":[0, 0, 0, 1, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":736,
+                         "wangid":[0, 0, 0, 1, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":737,
+                         "wangid":[0, 0, 0, 0, 0, 1, 0, 0]
+                        }, 
+                        {
+                         "tileid":755,
+                         "wangid":[0, 1, 0, 1, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":756,
+                         "wangid":[0, 1, 0, 1, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":757,
+                         "wangid":[0, 0, 0, 0, 0, 1, 0, 1]
+                        }, 
+                        {
+                         "tileid":775,
+                         "wangid":[0, 1, 0, 0, 0, 0, 0, 0]
+                        }, 
+                        {
+                         "tileid":776,
+                         "wangid":[0, 1, 0, 0, 0, 0, 0, 1]
+                        }, 
+                        {
+                         "tileid":777,
+                         "wangid":[0, 0, 0, 0, 0, 0, 0, 1]
+                        }]
+                }]
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":64
 }

@@ -6,6 +6,12 @@
 [cc0] by [Baŝto]
 
 
+[flyland.tmx]:
+-----------
+
+[cc0] by [Baŝto]
+
+
 [first.tmx]:
 -----------
 
@@ -31,6 +37,11 @@
 - https://git.cccv.de/rc3/world-tiles/-/blob/master/rc3-2020/structures/mapUtilities.png
 
 
+[carl_und_zon2.png]:
+--------------
+
+?? by [sianais], modified by [Baŝto]
+
 [container.kra]:
 ---------------------
 
@@ -39,6 +50,13 @@
 “[LPC] Containers” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Tuomo Untinen (Reemax)], [Evert], [Buch], [Blarumyrran], [Guilherme Vieira (n2liquid)], [Jetrel], [Guido Bos], [Hyptosis], [Bonsaiheldin, [NaRNeRZz], [PriorBlue], [Jerom], [7Soul], [Wolthera van Hövell tot Westerflier (TheraHedwig)]
 - https://opengameart.org/content/lpc-floors
 - file: [container.png]
+
+[streets.kra]:
+--------------
+
+“[LPC] police car” licensed under [cc-by-sa 3.0] by [Baŝto], [Skorpio]
+- https://opengameart.org/content/lpc-police-car
+- file: [road_markings_white_0.png], [road_signs_de.png], [street_dark.png], [street_misc.png]
 
 [lpc_upholstery.kra]:
 ---------------------

@@ -100,7 +100,7 @@
  </layer>
  <layer id="3" name="exit" width="80" height="80">
   <properties>
-   <property name="exitUrl" value="first.json#outside"/>
+   <property name="exitUrl" value="flyland.json#hackshacks"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"first.json#start"
+                 "value":"first.json#outside"
                 }],
          "type":"tilelayer",
          "visible":true,

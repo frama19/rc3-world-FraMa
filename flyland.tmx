@@ -81,7 +81,7 @@
  </layer>
  <layer id="7" name="exit_first" width="64" height="64">
   <properties>
-   <property name="exitUrl" value="first.json#start"/>
+   <property name="exitUrl" value="first.json#outside"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

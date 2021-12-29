@@ -38,28 +38,8 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
  <tile id="47" probability="0"/>
  <tile id="56" probability="0"/>
  <tile id="59" probability="0"/>
- <tile id="62">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="63">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
- </tile>
  <tile id="74" probability="0"/>
  <tile id="77" probability="0"/>
- <tile id="80">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
- </tile>
- <tile id="81">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
- </tile>
  <tile id="176" probability="0"/>
  <tile id="193" probability="0"/>
  <tile id="208">

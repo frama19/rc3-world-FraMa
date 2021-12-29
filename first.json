@@ -390,48 +390,12 @@
                  "probability":0
                 }, 
                 {
-                 "id":62,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":63,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
                  "id":74,
                  "probability":0
                 }, 
                 {
                  "id":77,
                  "probability":0
-                }, 
-                {
-                 "id":80,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":81,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
                 }, 
                 {
                  "id":176,

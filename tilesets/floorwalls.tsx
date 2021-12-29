@@ -12,7 +12,11 @@
 
 “[LPC] Floors” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Hyptosis], [SpiderDave], [Cougarmint], [Stephen Challener (Redshrike)], [Bonsaiheldin], [Tyler Olsen (Roots)], [Jetrel], [jestan], [The Open Surge team], [Gaurav Munjal], [Reemax], [Silveira Neto], [bleutailfly], [Casper Nilsson], [NaRNeRZz], [Buch], [keith karnage], [Arthur Carvalho], [Guilherme Vieira (n2liquid)], [Chris Hamons (maintainer)]
 - https://opengameart.org/content/lpc-floors
-- file: [floors.png]</property>
+- file: [floors.png]
+
+“LPC: Interior Castle Tiles” licensed under [cc-by 3.0] by [Lanea Zimmerman (Sharm)]
+- https://opengameart.org/content/lpc-interior-castle-tiles
+- file: [castle.png]</property>
  </properties>
  <image source="../pics/floorwalls.png" width="2048" height="1856"/>
  <tile id="0">

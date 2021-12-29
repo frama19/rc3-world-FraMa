@@ -18,12 +18,27 @@
 [cc0] by [Baŝto]
 
 
+[stairs.png]:
+---------------------
+
+“LPC: Interior Castle Tiles” licensed under [cc-by 3.0] by [Lanea Zimmerman (Sharm)]
+- https://opengameart.org/content/lpc-interior-castle-tiles
+
 [mapUtilities.png]:
 -------------------
 
 [cc0] by [psy], extended by [Baŝto]
 - https://git.cccv.de/rc3/world-tiles/-/blob/master/rc3-2020/structures/mapUtilities.png
 
+
+[container.kra]:
+---------------------
+
+[cc-by-sa 4.0], merger of parts of tilesets:
+
+“[LPC] Containers” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Tuomo Untinen (Reemax)], [Evert], [Buch], [Blarumyrran], [Guilherme Vieira (n2liquid)], [Jetrel], [Guido Bos], [Hyptosis], [Bonsaiheldin, [NaRNeRZz], [PriorBlue], [Jerom], [7Soul], [Wolthera van Hövell tot Westerflier (TheraHedwig)]
+- https://opengameart.org/content/lpc-floors
+- file: [container.png]
 
 [lpc_upholstery.kra]:
 ---------------------
@@ -66,6 +81,10 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
 “[LPC] Floors” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Hyptosis], [SpiderDave], [Cougarmint], [Stephen Challener (Redshrike)], [Bonsaiheldin], [Tyler Olsen (Roots)], [Jetrel], [jestan], [The Open Surge team], [Gaurav Munjal], [Reemax], [Silveira Neto], [bleutailfly], [Casper Nilsson], [NaRNeRZz], [Buch], [keith karnage], [Arthur Carvalho], [Guilherme Vieira (n2liquid)], [Chris Hamons (maintainer)]
 - https://opengameart.org/content/lpc-floors
 - file: [floors.png]
+
+“LPC: Interior Castle Tiles” licensed under [cc-by 3.0] by [Lanea Zimmerman (Sharm)]
+- https://opengameart.org/content/lpc-interior-castle-tiles
+- file: [castle.png]
 
 
 

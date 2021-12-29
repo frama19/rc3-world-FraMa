@@ -48,6 +48,19 @@ unreleased wall/door extension licensed under [cc-by-sa 4.0] by [Baŝto] and [Hy
 - file: [scifi_space_rpg_tiles_lpcized_wall.png]
 
 
+[floorwalls.kra]:
+---------------------
+
+[cc-by-sa 4.0], merger of parts of tilesets:
+
+“[LPC] Walls” licensed under [cc-by-sa 3.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [Daniel Armstrong (HughSpectrum)], [William Thompson (William.Thompsonj)], [Hyptosis], [Zabin], [Daniel Cook], [Guido Bos], [SpiderDave], [Cougarmint], [Stephen Challener (Redshrike)], Matthew Nash, [Wolthera van Hövell tot Westerflier (TheraHedwig)], [Reemax], [bleutailfly], [NaRNeRZz], [Sir Spummington], [Casper Nilsson], [KnoblePersona]
+- https://opengameart.org/content/lpc-walls
+- file: [walls.png]
+
+“[LPC] Floors” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Hyptosis], [SpiderDave], [Cougarmint], [Stephen Challener (Redshrike)], [Bonsaiheldin], [Tyler Olsen (Roots)], [Jetrel], [jestan], [The Open Surge team], [Gaurav Munjal], [Reemax], [Silveira Neto], [bleutailfly], [Casper Nilsson], [NaRNeRZz], [Buch], [keith karnage], [Arthur Carvalho], [Guilherme Vieira (n2liquid)], [Chris Hamons (maintainer)]
+- https://opengameart.org/content/lpc-floors
+- file: [floors.png]
+
 
 
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/

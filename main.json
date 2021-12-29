@@ -27,7 +27,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -45,7 +45,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -63,7 +63,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -81,7 +81,7 @@
                  "value":"world:\/\/lobby\/pcb.json#start_frama"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -127,7 +127,7 @@
                  "value":"Arrr, presse SPACE zum entern des Jitsi-Tisches"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -155,7 +155,7 @@
                  "value":"press SPACE to enter conference room"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -183,7 +183,7 @@
                  "value":"press SPACE to look at the LED matrix"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -216,7 +216,7 @@
                  "value":"backdoor"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -249,7 +249,7 @@
                  "value":"bbbdoor"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -287,7 +287,7 @@
                  "value":"blinkenswitch"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -299,7 +299,7 @@
          "name":"autounderlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -311,7 +311,7 @@
          "name":"backdoor_closed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -323,7 +323,7 @@
          "name":"backdoor_open",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -335,7 +335,7 @@
          "name":"bbbdoor_closed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -347,7 +347,7 @@
          "name":"bbbdoor_open",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -359,7 +359,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -371,7 +371,7 @@
          "name":"autooverlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -383,7 +383,7 @@
          "name":"objects",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -395,7 +395,7 @@
          "name":"deco",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -407,7 +407,7 @@
          "name":"deco2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -419,7 +419,7 @@
          "name":"blinken_on",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -431,7 +431,7 @@
          "name":"blinken_off",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -479,7 +479,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -589,7 +589,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -600,7 +600,7 @@
          "name":"backdoor_closed_overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -612,7 +612,7 @@
          "name":"backdoor_open_overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -624,7 +624,7 @@
          "name":"bbbdoor_closed_overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -636,7 +636,7 @@
          "name":"bbbdoor_open_overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -648,7 +648,7 @@
          "name":"overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -660,7 +660,7 @@
          "name":"blinken_overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -681,20 +681,54 @@
                          "value":"5nszJG7paFhN19f1DwgxB2qelHB0IFlUf1GzttfXrECI4hCypx"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"badge",
                  "visible":true,
                  "width":44,
                  "x":1482,
                  "y":289
+                }, 
+                {
+                 "height":64,
+                 "id":19,
+                 "name":"frama_right",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"fG8ImbAGvpB89SivHbp5RZ6JlCHcsDpWf379Cr5y8GZYuW1nyU"
+                        }],
+                 "rotation":0,
+                 "type":"badge",
+                 "visible":true,
+                 "width":86.6667,
+                 "x":1061.33,
+                 "y":545
+                }, 
+                {
+                 "height":64,
+                 "id":20,
+                 "name":"frama_left",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"fG8ImbAGvpB89SivHbp5RZ6JlCHcsDpWf379Cr5y8GZYuW1nyU"
+                        }],
+                 "rotation":0,
+                 "type":"badge",
+                 "visible":true,
+                 "width":86.6667,
+                 "x":773.333,
+                 "y":543.667
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
  "nextlayerid":68,
- "nextobjectid":18,
+ "nextobjectid":21,
  "orientation":"orthogonal",
  "properties":[
         {

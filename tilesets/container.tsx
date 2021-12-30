@@ -6,7 +6,7 @@
 
 [cc-by-sa 4.0], merger of parts of tilesets:
 
-“[LPC] Containers” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Tuomo Untinen (Reemax)], [Evert], [Buch], [Blarumyrran], [Guilherme Vieira (n2liquid)], [Jetrel], [Guido Bos], [Hyptosis], [Bonsaiheldin, [NaRNeRZz], [PriorBlue], [Jerom], [7Soul], [Wolthera van Hövell tot Westerflier (TheraHedwig)]
+“[LPC] Containers” licensed under [cc-by-sa 4.0] by [bluecarrot16], [Lanea Zimmerman (Sharm)], [William Thompson (William.Thompsonj)], [Tuomo Untinen (Reemax)], [Evert], [Buch], [Blarumyrran], [Guilherme Vieira (n2liquid)], [Jetrel], [Guido Bos], [Hyptosis], [Bonsaiheldin], [NaRNeRZz], [PriorBlue], [Jerom], [7Soul], [Wolthera van Hövell tot Westerflier (TheraHedwig)]
 - https://opengameart.org/content/lpc-floors
 - file: [container.png]</property>
  </properties>

@@ -4,7 +4,7 @@
   <property name="tilesetCopyright">[carl_und_zon2.png]:
 --------------
 
-?? by [sianais], modified by [Baŝto]</property>
+© by [sïanaïs], modified by [Baŝto]</property>
  </properties>
  <image source="../pics/carl_und_zon2.png" width="352" height="96"/>
 </tileset>

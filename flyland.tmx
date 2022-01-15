@@ -223,7 +223,7 @@
  </layer>
  <layer id="9" name="exit_carl" width="64" height="64">
   <properties>
-   <property name="exitUrl" value="world://portcarl/main.json"/>
+   <property name="exitUrl" value="raw.githubusercontent.com/BredPitch/PortCARL_RC3_21/main/main.json#start"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

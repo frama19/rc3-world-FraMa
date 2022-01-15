@@ -60,7 +60,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/raw.githubusercontent.com\/BredPitch\/PortCARL_RC3_21\/main\/main.json#start"
+                 "value":"..\/..\/..\/BredPitch\/PortCARL_RC3_21\/main\/main.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
